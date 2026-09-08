@@ -14,9 +14,9 @@ Uma aplicação robusta em Python desenvolvida com **Streamlit** para gerir e pu
 ### Funcionalidades
 * **Gestão Total de Conteúdos:** Visualização e listagem de posts, páginas e ficheiros de media.
 * **Métricas de Publicação:** Consulta estatística do número de publicações efetuadas por dia.
-* **Criação Avançada de Posts:** Criação de artigos com definição de imagem de fundo (destaque), título e conteúdo. Suporta o upload de ficheiros e a inserção dinâmica dos links gerados diretamente no corpo do texto.
+* **Criação Avançada de Posts:** Criação de artigos com definição de imagem de fundo (destaque), título, conteúdo e **atribuição de categorias**. Suporta o upload de ficheiros e a inserção dinâmica dos links gerados diretamente no corpo do texto.
 * **Modos de Publicação:** Permite publicar diretamente ou guardar como rascunho.
-* **Edição Flexível:** Permite editar e alterar o estado de qualquer post existente entre "Publicado" ou "Rascunho".
+* **Edição Flexível:** Permite editar e alterar as categorias ou o estado de qualquer post existente entre "Publicado" ou "Rascunho".
 * **Controlo de Infraestrutura:** Verificação em tempo real se o site WordPress se encontra em modo de manutenção.
 * **Acesso Avançado a Rascunhos:** Integração especial com os pacotes `beautifulsoup4` e `lxml` para contornar as limitações nativas da API do WordPress, permitindo extrair e listar rascunhos sem necessidade de permissões administrativas complexas ou outro tipo de autenticação restrita.
 
@@ -58,9 +58,9 @@ A robust Python application built with **Streamlit** to manage and publish conte
 ### Features
 * **Comprehensive Content Management:** View and list website posts, pages, and media gallery items.
 * **Publishing Metrics:** Check and monitor the total number of posts published per day.
-* **Advanced Post Creation:** Create new posts with featured background images, titles, and body content. Supports file uploads with dynamic link injection into the post content.
+* **Advanced Post Creation:** Create new posts with featured background images, titles, body content, and **assigned categories**. Supports file uploads with dynamic link injection into the post content.
 * **Flexible Publishing:** Save articles directly as drafts or publish them live immediately.
-* **Post Editing:** Modify and change the status of existing posts at any time between "Published" and "Draft".
+* **Post Editing:** Modify and change the categories or status of existing posts at any time between "Published" and "Draft".
 * **Maintenance Status Check:** Instantly verify whether the target WordPress site is currently in maintenance mode.
 * **Advanced Draft Extraction:** Special integration using `beautifulsoup4` and `lxml` packages to bypass default WordPress API restrictions, enabling seamless listing and retrieval of draft posts without demanding complex elevated administrative permissions.
 
@@ -92,3 +92,4 @@ The setup for both the `run_app.spec` configuration file and the `run_app.py` bo
 pyinstaller --clean run_app.spec
 ```
 The final standalone bundle will be available inside the `dist/` directory.
+
