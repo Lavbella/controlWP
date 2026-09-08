@@ -21,9 +21,9 @@ Uma aplicação robusta em Python desenvolvida com **Streamlit** para gerir e pu
 * **Acesso Avançado a Rascunhos:** Integração especial com os pacotes `beautifulsoup4` e `lxml` para contornar as limitações nativas da API do WordPress, permitindo extrair e listar rascunhos sem necessidade de permissões administrativas complexas ou outro tipo de autenticação restrita.
 
 ### Estrutura do Projeto
-* `app.py`: Código principal da aplicação Streamlit (v3).
-* `run_app.py`: Script de bootstrap/inicialização para o executável.
-* `run_app.spec`: Ficheiro de configuração e especificação do PyInstaller.
+* `app_editorV3.py`: Código principal da aplicação Streamlit (v3).
+* `run_app.py`: Criar Script de bootstrap/inicialização para o executável.
+* `run_app.spec`: Criar Ficheiro de configuração e especificação do PyInstaller.
 * `requirements.txt`: Lista de dependências (incluindo `beautifulsoup4` e `lxml`).
 
 ### Como Executar Localmente
@@ -39,7 +39,7 @@ Uma aplicação robusta em Python desenvolvida com **Streamlit** para gerir e pu
    ```
 3. Inicie a aplicação:
    ```bash
-   streamlit run app.py
+   streamlit run app_editorV3.py
    ```
 
 ### Como Criar o Executável
@@ -65,9 +65,9 @@ A robust Python application built with **Streamlit** to manage and publish conte
 * **Advanced Draft Extraction:** Special integration using `beautifulsoup4` and `lxml` packages to bypass default WordPress API restrictions, enabling seamless listing and retrieval of draft posts without demanding complex elevated administrative permissions.
 
 ### Project Structure
-* `app.py`: Main Streamlit application source code (v3).
-* `run_app.py`: Bootstrap/entry-point script for the standalone executable.
-* `run_app.spec`: PyInstaller configuration and specification file.
+* `app_editorV3.py`: Main Streamlit application source code (v3).
+* `run_app.py`: Build Bootstrap/entry-point script for the standalone executable.
+* `run_app.spec`: PBuild yInstaller configuration and specification file.
 * `requirements.txt`: Python environment dependency list (including `beautifulsoup4` and `lxml`).
 
 ### How to Run Locally
@@ -83,7 +83,7 @@ A robust Python application built with **Streamlit** to manage and publish conte
    ```
 3. Launch the application:
    ```bash
-   streamlit run app.py
+   streamlit run app_editorV3.py
    ```
 
 ### How to Build the Executable
